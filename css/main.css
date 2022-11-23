@@ -1,0 +1,23 @@
+@font-face {
+    font-family:"Open Sans Regular";
+    src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Open Sans Bold";
+    src:url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Open Sans ExtraBold";
+    src:url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    }
+
+
