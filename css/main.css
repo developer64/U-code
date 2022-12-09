@@ -101,6 +101,16 @@ header {
     line-height: 60px;
 }
 
+.dropbtn {
+    font-size: 20px;
+    font-family: "Open Sans Bold",sans-serif;
+    color: #575859;
+    font-weight: 700;
+    line-height: 60px;
+    border: none;
+    background: #E4F5EB;
+}
+
 .button {
     
         font-weight: 600;
@@ -120,19 +130,33 @@ header {
         background: rgb(33,147,90);
         box-shadow: 0 3px rgb(33,147,90) inset;
 }
-
-/* .btn {
+  
+  .dropbtn:hover {
+    background-color:#F0F0F0;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .menu-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    width: 136px;
-    height: 54px;
-    background: #45B871;
-    box-shadow: 0px 8px 80px rgba(9, 188, 77, 0.2);
-    border-radius: 5px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Open Sans Regular",sans-serif;
-    color: white;
-    padding: 20px, 23px;
-    line-height: 15px;
-} */
+    text-align: left;
+  }
+  
+  .menu-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .menu li:hover .menu-content{
+    display: block;
+  }
