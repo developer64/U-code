@@ -23,7 +23,6 @@ body {
 h1,y2,h3,h4,h5,h6 {
     padding: 0;
     margin: 0;
-    text-transform: uppercase;
 }
 
 p {
@@ -40,6 +39,15 @@ ul,li {
     margin: 0;
 }
 
+h1 {
+    font-size: 64px;
+    font-family: "Open Sans Bold",sans-serif;
+    line-height: 1.31;
+    text-align: left;
+    color: #242323;
+
+}
+
 h2 {
     font-size: 58px;
 }
@@ -50,7 +58,6 @@ h3 {
 
 header {
     background-color: #E4F5EB;
-    padding-top: 71px;
 }
 
 .container {
@@ -60,6 +67,7 @@ header {
 
 .nav {
     display: flex;
+    margin: 48px 0 0 12px;
 }
 
 .logo {
@@ -79,18 +87,28 @@ header {
 
 .menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu li {
-    margin-right: 55px;
+    margin-right: 63px;
+}
+
+.menu li:nth-child(2) {
+    margin-right: 62px;
+}
+
+.menu li:nth-child(3) {
+    margin-right: 67px;
 }
 
 .menu li:nth-child(4) {
-    margin-right: 200px;
+    margin-right: 199px;
 }
 
 .menu li:nth-child(5) {
-    margin-right: 40px;
+    margin-right: 42px;
 }
 
 .menu li a {
@@ -113,50 +131,68 @@ header {
 
 .button {
     
-        font-weight: 600;
-        color: white;
-        padding: .8em 1em calc(.8em + 3px);
-        border-radius: 5px;
-        background: rgb(64,199,129);
-        box-shadow: 0px 8px 80px rgba(9, 188, 77, 0.2);
-        transition: 0.2s;
-        font-size: 20px;
-        font-weight: 600;
-        font-family: "Open Sans Regular",sans-serif;
+    color: white;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0px 8px 80px rgba(9, 188, 77, 0.2);
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans Regular",sans-serif;
 
-      } 
-      a.button7:hover { background: rgb(53, 167, 110); }
-      a.button7:active {
-        background: rgb(33,147,90);
-        box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+a.button7:hover { background: rgb(53, 167, 110); 
+}
+a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
 }
   
-  .dropbtn:hover {
+.dropbtn:hover {
     background-color:#F0F0F0;
   }
   
-  .menu-content {
+.menu-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .menu-content a {
+.menu-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
   
   .menu-content a:hover {
     background-color: #ddd;
-  }
+}
   
   .menu li:hover .menu-content{
     display: block;
-  }
+}
+
+.headerLeft {
+    margin-top: 151px;
+}
+
+.headerLeft h1 {
+    margin-left: 11px;
+
+}
+
+.headerLeft p {
+    font-size: 18px;
+    font-family: "Open Sans Regular",sans-serif;
+    line-height: 1.67;
+    font-weight: 600;
+    color: #6c6c6a;
+}
