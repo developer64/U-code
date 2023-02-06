@@ -195,4 +195,48 @@ a.button7:active {
     line-height: 1.67;
     font-weight: 600;
     color: #6c6c6a;
+    margin: 25px 0 0 14px;
 }
+
+.btnAllCourses {
+    width: 202px;
+    height: 72px;
+    border-radius: 5px;
+    box-shadow: 0 8px 79px 0 rgba(9, 188, 77, 0.2);
+    background-color: #45b871;
+    margin: 53px 0 0 13px;
+}
+
+.txtAllCourses {
+    width: 106.1px;
+    height: 31.7px;
+    font-family: "Open Sans Regular",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 50px; 
+}
+
+.btnContent {
+    display: flex;
+}
+
+.btnPlayVideo {
+    display: flex;
+}
+
+.btnPlayVideo img {
+    margin: 24px 0 0 9px;
+}
+
+.txtPlayVideo {
+    font-family: "Open Sans Regular",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.75;
+    text-align: left;
+    color: #242323;
+    margin: 85px 0 0 -24px
+} 
