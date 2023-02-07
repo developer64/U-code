@@ -53,7 +53,7 @@ h2 {
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 36px;
 }
 
 header {
@@ -180,6 +180,14 @@ a.button7:active {
     display: block;
 }
 
+.infoContent {
+    display: flex;
+}
+
+.headerRight img {
+margin: -5px 0 74px 71px;
+}
+
 .headerLeft {
     margin-top: 151px;
 }
@@ -225,10 +233,11 @@ a.button7:active {
 
 .btnPlayVideo {
     display: flex;
+    margin-left: -9px;
 }
 
 .btnPlayVideo img {
-    margin: 24px 0 0 9px;
+    margin-top:24px;;
 }
 
 .txtPlayVideo {
@@ -239,4 +248,30 @@ a.button7:active {
     text-align: left;
     color: #242323;
     margin: 85px 0 0 -24px
-} 
+}
+
+.getStarted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 66px -30px 0 0;
+}
+
+.getStarted h3 {
+    font-family: "Open Sans Bold",sans-serif;
+    line-height: 1.39;
+    color: #575859;
+    margin-right: 145px;
+}
+
+.getStarted img:nth-child(2) {
+    margin-left: 10px
+}
+
+.getStarted img:nth-child(3) {
+    margin-right: 31px;
+    margin-top: 4px;}
+
+.getStarted img:last-child {
+    margin-left: 69px;
+}
