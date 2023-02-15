@@ -338,3 +338,12 @@ margin: -5px 0 74px 71px;
     line-height: 1.33;
     color: #242323;
 }
+
+.Lectures30 img {
+    width: 26px;
+    height: 26px;
+    margin: 0 11px 0 0;
+    padding: 7.3px 7.8px 7.8px 7.3px;
+    box-shadow: 0 4px 4px 0 rgba(255, 72, 72, 0.15);
+    background-color: #ff4848
+}
