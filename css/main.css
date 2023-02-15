@@ -50,10 +50,19 @@ h1 {
 
 h2 {
     font-size: 58px;
+    font-family: "Open Sans Bold",sans-serif;
+
 }
 
 h3 {
     font-size: 36px;
+    font-family: "Open Sans Bold",sans-serif;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: "Open Sans Regular",sans-serif;
+
 }
 
 header {
@@ -250,6 +259,10 @@ margin: -5px 0 74px 71px;
     margin: 85px 0 0 -24px
 }
 
+.getStartedContent {
+    margin-bottom: 86px;
+}
+
 .getStarted {
     display: flex;
     align-items: center;
@@ -258,7 +271,6 @@ margin: -5px 0 74px 71px;
 }
 
 .getStarted h3 {
-    font-family: "Open Sans Bold",sans-serif;
     line-height: 1.39;
     color: #575859;
     margin-right: 145px;
@@ -274,4 +286,55 @@ margin: -5px 0 74px 71px;
 
 .getStarted img:last-child {
     margin-left: 69px;
+}
+
+.easySteps {
+    display: flex;
+}
+
+.stepsForm img {
+    margin: 143px 147px 0 -78px;
+}
+
+.stepsText {
+    margin-top: 231px;
+    line-height: 1.28;
+}
+
+.stepsText p {
+    margin-top: -20px;
+    line-height: 1.67;
+    font-family: "Open Sans Regular",sans-serif;
+}
+
+.btnSeeHow {
+    display: flex;
+}
+
+.btnSeeHow img {
+    margin: 24px 0 0 -42px;
+}
+
+.courseOne  {
+    width: 450px;
+    height: 582px;
+    margin: 1px 0 0;
+    padding: 316px 30px 23px;
+    border-radius: 15px;
+    box-shadow: 0 20px 100px 0 rgba(87, 88, 89, 0.1);
+    border: solid 1px #f2efef;
+    background-color: #fff;
+      
+}
+
+.courseOne img {
+    width: 449px;
+    height: 287px;
+    margin: 0 1px 296px 0;
+}
+
+.courseOne h4 {
+    margin: 0 51px 30px 0;
+    line-height: 1.33;
+    color: #242323;
 }
