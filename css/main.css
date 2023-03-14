@@ -371,10 +371,47 @@ margin: -5px 0 74px 71px;
     background-color: rgba(38, 142, 170, 0.5);
     margin-top: 11px;
     margin-left: 37px;
-  }
+}
+
+  .viewProfile {
+    display: flex;
+}
 
   .viewProfile img {
     width: 68px;
     height: 68px;
-  }
+    margin-left: 30px;
+}
+
+.txtViewProfile {
+    margin-left: 20px;
+    padding-top: 8px;
+}
+
+.txtViewProfile p {
+    font-size: 20px;
+    color: #242323;
+    font-family: "Open Sans Bold",sans-serif;
+    line-height: 1.75;
+
+
+}
+
+.txtViewProfile a {
+    font-size: 12px;
+    font-family: "Open Sans Bold",sans-serif;
+    line-height: 1.75;
+    color: #45b871;
+}
+
+.priceCourse {
+    font-family: "Open Sans Bold",sans-serif;
+    font-size: 34px;
+    line-height: 0.44;
+    color: #4c68ff;
+    margin-left: 114px;
+    margin-top: 28px;
+
+}
+
 
