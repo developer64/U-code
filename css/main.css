@@ -317,6 +317,7 @@ margin: -5px 0 74px 71px;
 
 .ouerPopularCourses {
     background-color: #e4f5eb;
+    padding-bottom: 130px;
 }
 
 .popularCourses h2 {
@@ -499,6 +500,7 @@ margin: -5px 0 74px 71px;
 
 .coursesAll2 {
     display: flex;
+    margin-bottom: 32px;
 }
 
 .courseFour  {
@@ -616,4 +618,37 @@ margin: -5px 0 74px 71px;
     line-height: 1.75;
     /* padding-top: 5px; */
 }
+
+.btnViewCourses {
+    width: 252px;
+    height: 80px;
+    margin: 25px 127px 0 597px;
+    padding: 33px 44px 32px;
+    border-radius: 5px;
+    box-shadow: 0 10px 80px 0 rgba(9, 188, 77, 0.25);
+    background-color: #45b871;
+}
+
+.txtViewCourses {
+    width: 164px;
+    height: 15px;
+    font-family: "Open Sans Bold",sans-serif;
+    font-size: 20px;
+    line-height: 0.75;
+    text-align: left;
+    color: #fff;
+}
+
+.studentsSay {
+
+}
+
+.studentsSay h2 {
+    font-family: "Open Sans Regular",sans-serif;
+    margin-top: 156px;
+    margin-left: 410px;
+    line-height: 1.28;
+    color: #242323;
+}
+
 
