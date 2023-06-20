@@ -647,4 +647,8 @@ margin: -5px 0 74px 71px;
     color: #242323;
 }
 
+.aboutUs {
+    display: flex;
+}
+
 
