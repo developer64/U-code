@@ -651,4 +651,24 @@ margin: -5px 0 74px 71px;
     display: flex;
 }
 
+.jeiliyaMathus {
+    width: 695px;
+}
+
+.jeiliyaMathus img {
+    margin: 82px 450px 22px 68px;
+}
+
+.textStudensLeft {
+    margin-left: 70px;
+
+}
+
+.textStudensLeft p {
+    color: #8C8E90;
+    font-family: "Open Sans Regular",sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+}
+
 
