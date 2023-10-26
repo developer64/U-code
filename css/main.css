@@ -13,6 +13,21 @@
     src:url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
+@font-face {
+    font-family:"Poppins Medium";
+    src:url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family:"Poppins Regular";
+    src:url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Poppins SemiBold";
+    src:url(../fonts/Poppins-SemiBold.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -671,4 +686,22 @@ margin: -5px 0 74px 71px;
     line-height: 40px;
 }
 
+.jeiliya {
+    color: #242323;
+    font-family: "Poppins SemiBold~~", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 10px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
 
+.productDesigner {
+    color: #636262;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1px;
+    margin-top: 32px;
+    margin-left: 70px;
+}
