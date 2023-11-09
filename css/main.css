@@ -688,7 +688,7 @@ margin: -5px 0 74px 71px;
 
 .jeiliya {
     color: #242323;
-    font-family: "Poppins SemiBold~~", sans-serif;
+    font-family: "Poppins SemiBold", sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 10px;
@@ -704,4 +704,37 @@ margin: -5px 0 74px 71px;
     line-height: 1px;
     margin-top: 32px;
     margin-left: 70px;
+}
+
+.adamKauthe img {
+    margin-top: 51px;
+    margin-left: 134px;
+}
+
+.adamKauthe .textStudentsRight {
+    margin-top: 20px;
+    margin-left: 133px;
+    color: #8C8E90;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Adam-kauthe {
+    color: #242323;
+    font-family: "Poppins Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 6.427px;
+    margin-top: 47px;
+    margin-left: 133px;
+}
+
+.Software-EngineerGoogle {
+    color: #636262;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 13px;
+    line-height: 0.643px;
+    margin-top: 20px;
+    margin-left: 133px;
 }
