@@ -765,11 +765,21 @@ margin: -5px 0 74px 71px;
 
 .Business-Consultant-Zoom {
     color: #636262;
-    font-family: Poppins;
-    font-size: 12.855px;
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 13px;
     line-height: 0.643px;
     margin-top: 20px;
     margin-left: 133px;
+}
+
+footer {
+    margin-top: 202px;
+  
+}
+
+footer .container {
+    background: #45B871;
+    stroke-width: 2px;
+    stroke: rgba(149, 205, 220, 0.35);
+    height: 452px;
 }
