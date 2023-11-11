@@ -780,6 +780,21 @@ footer {
 footer .container {
     background: #45B871;
     stroke-width: 2px;
-    stroke: rgba(149, 205, 220, 0.35);
-    height: 452px;
+    stroke: rgba(149, 205, 220, 0.35); 
+    height: 440px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.text_footer {
+    text-align: center;
+    padding-left: 75px;
+    padding-top: 98px;
+}
+
+footer p {
+    color: #fff;
+    font-family: "Open Sans Bold",sans-serif;
+    font-size: 50px;
+    line-height: 68px;
 }
