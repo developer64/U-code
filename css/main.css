@@ -823,3 +823,9 @@ footer p {
     text-align: center;
     margin-left: 15px;
 }
+
+svg {
+    position: absolute;
+    width: 1425px;
+    height: 452px;
+}
