@@ -786,13 +786,35 @@ footer .container {
     align-items: center;
 }
 
+footer-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    position: absolute;
+}
+/* .svg_Left {
+    width: 843px;
+    height: 100%;
+}
+
+.svg_Center {
+    width: 313px;
+    height: 100%;
+}
+
+.svg_Right {
+    width: 546px;
+    height: 100%;
+} */
+
 .text_footer {
     text-align: center;
     padding-left: 75px;
     padding-top: 98px;
 }
 
-footer p {
+.text_footer p {
     color: #fff;
     font-family: "Open Sans Bold",sans-serif;
     font-size: 50px;
@@ -824,8 +846,4 @@ footer p {
     margin-left: 15px;
 }
 
-svg {
-    position: absolute;
-    width: 1425px;
-    height: 452px;
-}
+
